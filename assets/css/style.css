@@ -1,0 +1,38 @@
+:root {
+  --bs-primary: #FFDD00; /*amarelo da empresa */
+  --bs-dark: #000000; /* preto */
+  --bs-white: #FFFFFF; /* branco */
+  --bs-info: #1F3A93; /* azul escuro */
+  --bs-darkMask: rgba(0, 0, 0, 0.7); /* máscara preta translúcida */
+}
+
+.hero-banner {
+  background-image: url('../image/navBanner.png');
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero-overlay {
+  background: var(--bs-darkMask);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 2;
+}
+
+.hero-content {
+  width: 50%;
+  color: var(--bs-primary);
+  text-align: right;
+  padding: 1.5rem;
+  z-index: 3;
+  position: relative;
+}

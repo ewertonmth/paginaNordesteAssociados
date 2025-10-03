@@ -1,0 +1,67 @@
+# 🛡️ Nordeste Associados - Landing Page
+
+Bem-vindo ao repositório da landing page da **Nordeste Associados**, uma página web moderna e responsiva desenvolvida com Bootstrap para apresentar os serviços de seguros da empresa com muita clareza e usabilidade.
+
+---
+
+## 🚀 Sobre o Projeto
+
+Esta landing page inclui:
+
+- Navbar simples e responsiva com logo e navegação 🧭
+- Banner hero com imagem de fundo, máscara escura e texto de destaque 🖼️
+- Carousel para mostrar coberturas e tópicos em formato organizado 📋
+- Paleta de cores personalizada para identidade visual 🌈
+- Layout limpo, rápido e focado na experiência do usuário 💻
+
+---
+
+## 🎯 Funcionalidades
+
+- Design responsivo e mobile-first usando Bootstrap 5
+- Personalização via CSS externo com variáveis para cores
+- Navegação ágil entre seções da página
+- Código organizado com separação clara entre estrutura (HTML) e estilo (CSS)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5 & CSS3
+- Bootstrap 5.3
+- CSS customizado para temas e máscaras
+- JS do Bootstrap para componentes interativos (ex: carousel, navbar)
+
+---
+
+## 📝 Como Executar Localmente
+
+1. Clone o repositório:  
+2. Navegue até a pasta do projeto:  
+3. Abra o arquivo `index.html` em seu navegador preferido  
+4. Certifique-se que as pastas `assets/css` e `assets/image` estão no local correto com os arquivos necessários  
+5. (Opcional) Use um servidor local para melhor experiência (ex: Live Server no VSCode)
+
+---
+
+## 🗂️ Estrutura do Projeto
+nordeste-associados/
+│
+├── assets/
+│ ├── css/
+│ │ └── estilos.css # Arquivo CSS principal com as customizações
+│ ├── image/
+│ │ └── navBanner.png # Imagem do banner hero
+│ │ └── logo.png # Logo da empresa para navbar
+│
+├── index.html # Página principal
+└── README.md # Este arquivo
+
+
+---
+
+⚠️ **Aviso:** Este é um projeto exemplo para fins profissionais, e pode ser adaptado conforme necessidade.
+
+---
+
+✨ Obrigado por visitar o projeto! Aproveite para conhecer mais sobre a Nordeste Associados e seus serviços de seguros confiáveis. ✨

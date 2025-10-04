@@ -1,13 +1,17 @@
 :root {
-  --bs-primary: #FFDD00; /*amarelo da empresa */
+  --bs-primary: #ffdd00; /*amarelo da empresa */
   --bs-dark: #000000; /* preto */
-  --bs-white: #FFFFFF; /* branco */
-  --bs-info: #1F3A93; /* azul escuro */
+  --bs-white: #ffffff; /* branco */
+  --bs-info: #1f3a93; /* azul escuro */
   --bs-darkMask: rgba(0, 0, 0, 0.7); /* máscara preta translúcida */
 }
 
+body {
+  background-color: var(--bs-dark);
+}
+
 .hero-banner {
-  background-image: url('../image/navBanner.png');
+  background-image: url("../image/navBanner.png");
   height: 800px;
   background-size: cover;
   background-position: center;
@@ -35,4 +39,49 @@
   padding: 1.5rem;
   z-index: 3;
   position: relative;
+}
+
+.carousel-item .card {
+  color: var(--bs-primary);
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  transition: transform 0.2s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.carousel-item .card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.07);
+}
+
+.carousel-item .card i {
+  font-size: 2.5rem;
+  color: var(--bs-primary);
+  margin-bottom: 14px;
+}
+
+.carousel-item .fw-bold {
+  color: var(--bs-primary);
+}
+
+.carousel-item .small {
+  color: var(--bs-primary);
+  font-size: 1rem;
+}
+
+@media (max-width: 767px) {
+  .carousel-item .fw-bold {
+    font-size: 1rem;
+  }
+  .carousel-item .small {
+    font-size: 0.85rem;
+  }
+  .carousel-item .card i {
+    font-size: 2rem;
+  }
 }
